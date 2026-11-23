@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- POM agregateur : permet d'ouvrir les 4 microservices dans un seul projet IntelliJ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>tp20-resttemplate</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+    <name>tp20-resttemplate</name>
+    <modules>
+        <module>eureka-server</module>
+        <module>client-service</module>
+        <module>gateway</module>
+        <module>car-service</module>
+    </modules>
+</project>
